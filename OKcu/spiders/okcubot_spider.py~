@@ -8,7 +8,7 @@ import hashlib
 class OKcuSpider(scrapy.Spider):
 	name = "okcubot"
 	index = 0
-	max_people = 100
+	max_people = 1
 	domain = "https://www.okcupid.com"
 
 	profile_info = {
